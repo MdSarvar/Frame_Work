@@ -15,8 +15,10 @@ public class Base_Test implements FrameWork_constant1 {
 		//System.setProperty("webdriver.chrome.driver", "./driver/chromedriver.exe");
 		System.setProperty(chrome_key, chrome_value); // implemented by interface by implements key
 		driver = new ChromeDriver();
+		// to Luanch the browser
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		// to enter the url
 		driver.get(base_url);
 		
 	}
