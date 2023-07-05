@@ -20,6 +20,7 @@ public class Base_Test1 {
 	@AfterMethod
 	public void close_app()
 	{
+		//this comment for close the window
 		driver.close();
 	}
 
